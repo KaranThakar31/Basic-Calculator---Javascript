@@ -1,0 +1,32 @@
+#main{
+    width: 395px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 10px 10px 5px;
+}
+#header{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+#screen{
+    width: 386px;
+    height: 200px;
+    margin-top: 2px;
+}
+#buttons{
+    width: 395px;
+    height: 365px;
+}
+input{
+    width: 93px;
+    height: 88px;
+    margin: 1px;
+    font-size: 20px;
+    cursor: pointer;
+}
+input:hoover{
+    background: gray;
+    transform: scale(1.2);
+}
