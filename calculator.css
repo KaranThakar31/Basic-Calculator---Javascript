@@ -1,9 +1,10 @@
 #main{
     width: 395px;
-    height: 600px;
+    height: 560px;
     border: 2px solid black;
     margin: auto;
     box-shadow: 10px 10px 5px;
+    border-radius: 8px;
 }
 #header{
     text-align: center;
@@ -20,13 +21,15 @@
     height: 365px;
 }
 input{
-    width: 93px;
-    height: 88px;
+    width: 73px;
+    height: 77px;
     margin: 1px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
+    transition: 0.2s;
 }
+
 input:hoover{
     background: gray;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
